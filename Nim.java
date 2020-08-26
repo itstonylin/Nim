@@ -155,8 +155,11 @@ class Nim {
         // closes scanner
         input.close();
         // prints out how many times each person has won
+        System.out.println("Thanks For Playing!");
+        System.out.println("---------------------------------------");
         System.out.println(name1 + " won: " + playerOneWins + " time(s)");
         System.out.println(name2 + " won: " + playerTwoWins + " time(s)");
+        System.out.println("---------------------------------------");
     }
 
     // method for printing out the sticks in each pile
